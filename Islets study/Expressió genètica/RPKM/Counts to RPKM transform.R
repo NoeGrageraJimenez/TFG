@@ -177,7 +177,7 @@ if (all(comparaciones)) {
 
 
 x$genes$Length <- genelength
-
+x <- calcNormFactors(x)
 rpkm <- rpkm(x)
 rpkm 
 
